@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  ShoppingAlertController
+//
+//  Created by Mac on 2018/4/18.
+//  Copyright © 2018年 MF. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <YYKit/YYKit.h>
+#import <Masonry/Masonry.h>
+
+#define LCScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define LCScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+#define LCFont(size) [UIFont systemFontOfSize:size]
+#define LCBoldFont(size) [UIFont boldSystemFontOfSize:size]
+
+#define LCColor(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#define LCColorRGB(R, G, B)    LCColor(R, G, B, 1.0)
+
+#define LCUnEnableColor LCColorRGB(189, 224, 253)
+#define LCBlueColor UIColorHex(61b6ff)
+#define LCGradientColor UIColorHex(83c6ff) //61b6ff~83c6ff
+#define LCYellowColor UIColorHex(ffb033)
+#define LCRedColor UIColorHex(fe195f)
+#define LCBlackColor UIColorHex(333333)
+#define LCCoffeeColor UIColorHex(666666)
+#define LCDarkGrayColor UIColorHex(999999)
+#define LCBGaryColor UIColorHex(f1f1f1)
+#define LCLightGaryColor UIColorHex(f8f8f8)
+
+
+typedef NS_ENUM(NSInteger,LCRoundCornerType){
+    LCRoundCornerTypeTop,
+    LCRoundCornerTypeBottom,
+};
+
+typedef NS_ENUM(NSInteger,LCToolBarType) {
+    LCToolBarTypeTrolley = 0,
+    LCToolBarTypeAddTrolley,
+    LCToolBarTypeBuy,
+};
+
+typedef NS_ENUM(NSInteger,LCButtonClickType) {
+    LCLCButtonClickTypeCancel,
+    LCButtonClickTypeEnter,
+    LCButtonClickTypeOhter,
+};
+
+#endif /* PrefixHeader_pch */

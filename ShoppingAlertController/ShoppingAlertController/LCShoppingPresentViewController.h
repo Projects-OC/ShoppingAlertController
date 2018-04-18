@@ -1,0 +1,13 @@
+//
+//  LCShoppingPresentViewController.h
+//  LCTechnology
+//
+//  Created by Mac on 2018/3/22.
+//  Copyright © 2018年 MF. All rights reserved.
+//
+
+#import "LCBaseTableViewController.h"
+
+@interface LCShoppingPresentViewController : LCBaseTableViewController
+
+@end

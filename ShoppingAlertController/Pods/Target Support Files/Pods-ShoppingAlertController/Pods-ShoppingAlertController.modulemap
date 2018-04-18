@@ -1,0 +1,6 @@
+framework module Pods_ShoppingAlertController {
+  umbrella header "Pods-ShoppingAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045032A220872D0D009FE131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032A120872D0D009FE131 /* AppDelegate.m */; };
+		045032A520872D0D009FE131 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032A420872D0D009FE131 /* ViewController.m */; };
+		045032A820872D0D009FE131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045032A620872D0D009FE131 /* Main.storyboard */; };
+		045032AA20872D0E009FE131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045032A920872D0E009FE131 /* Assets.xcassets */; };
+		045032AD20872D0E009FE131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045032AB20872D0E009FE131 /* LaunchScreen.storyboard */; };
+		045032B020872D0E009FE131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032AF20872D0E009FE131 /* main.m */; };
+		045032CA20872D48009FE131 /* LCShoppingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032B620872D45009FE131 /* LCShoppingModel.m */; };
+		045032CB20872D48009FE131 /* LCShoppingCountChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032B820872D45009FE131 /* LCShoppingCountChangeView.m */; };
+		045032CC20872D48009FE131 /* LCShoppingPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032BA20872D46009FE131 /* LCShoppingPresentViewController.m */; };
+		045032CD20872D48009FE131 /* LCShoppingPresentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032BB20872D46009FE131 /* LCShoppingPresentHeaderView.m */; };
+		045032CE20872D48009FE131 /* LCShoppingPresentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032BF20872D46009FE131 /* LCShoppingPresentCollectionViewCell.m */; };
+		045032CF20872D48009FE131 /* LCShoppingPresentTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032C120872D46009FE131 /* LCShoppingPresentTopView.m */; };
+		045032D020872D48009FE131 /* LCPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032C320872D47009FE131 /* LCPresentationController.m */; };
+		045032D120872D48009FE131 /* UIBezierPath+LC.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032C420872D47009FE131 /* UIBezierPath+LC.m */; };
+		045032D220872D48009FE131 /* LCShoppingPresentFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032C720872D47009FE131 /* LCShoppingPresentFooterView.m */; };
+		0450330A20872FDF009FE131 /* LCBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032FD20872FDE009FE131 /* LCBaseScrollView.m */; };
+		0450330B20872FDF009FE131 /* LCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045032FF20872FDE009FE131 /* LCBaseViewController.m */; };
+		0450330C20872FDF009FE131 /* LCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450330020872FDE009FE131 /* LCBaseTableViewCell.m */; };
+		0450330D20872FDF009FE131 /* LCBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450330120872FDF009FE131 /* LCBaseCollectionViewController.m */; };
+		0450330E20872FDF009FE131 /* LCBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450330420872FDF009FE131 /* LCBaseTableView.m */; };
+		0450330F20872FDF009FE131 /* LCBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450330520872FDF009FE131 /* LCBaseTableViewController.m */; };
+		0450331020872FDF009FE131 /* LCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450330820872FDF009FE131 /* LCBaseNavigationController.m */; };
+		0450331320873066009FE131 /* NSString+LC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450331220873066009FE131 /* NSString+LC.m */; };
+		0450331620873093009FE131 /* LCShoppingToobar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450331420873092009FE131 /* LCShoppingToobar.m */; };
+		52FF6E2FB248834AF13CE7F3 /* Pods_ShoppingAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBCE17C110063B6F05846D6 /* Pods_ShoppingAlertController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0450329D20872D0D009FE131 /* ShoppingAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045032A020872D0D009FE131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045032A120872D0D009FE131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045032A320872D0D009FE131 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		045032A420872D0D009FE131 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		045032A720872D0D009FE131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045032A920872D0E009FE131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045032AC20872D0E009FE131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045032AE20872D0E009FE131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045032AF20872D0E009FE131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045032B620872D45009FE131 /* LCShoppingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingModel.m; sourceTree = "<group>"; };
+		045032B720872D45009FE131 /* LCShoppingPresentFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingPresentFooterView.h; sourceTree = "<group>"; };
+		045032B820872D45009FE131 /* LCShoppingCountChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingCountChangeView.m; sourceTree = "<group>"; };
+		045032B920872D46009FE131 /* LCShoppingCountChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingCountChangeView.h; sourceTree = "<group>"; };
+		045032BA20872D46009FE131 /* LCShoppingPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingPresentViewController.m; sourceTree = "<group>"; };
+		045032BB20872D46009FE131 /* LCShoppingPresentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingPresentHeaderView.m; sourceTree = "<group>"; };
+		045032BC20872D46009FE131 /* LCShoppingPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingPresentViewController.h; sourceTree = "<group>"; };
+		045032BD20872D46009FE131 /* LCShoppingPresentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingPresentHeaderView.h; sourceTree = "<group>"; };
+		045032BE20872D46009FE131 /* LCPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPresentationController.h; sourceTree = "<group>"; };
+		045032BF20872D46009FE131 /* LCShoppingPresentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingPresentCollectionViewCell.m; sourceTree = "<group>"; };
+		045032C020872D46009FE131 /* LCShoppingPresentTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingPresentTopView.h; sourceTree = "<group>"; };
+		045032C120872D46009FE131 /* LCShoppingPresentTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingPresentTopView.m; sourceTree = "<group>"; };
+		045032C220872D47009FE131 /* UIBezierPath+LC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LC.h"; sourceTree = "<group>"; };
+		045032C320872D47009FE131 /* LCPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPresentationController.m; sourceTree = "<group>"; };
+		045032C420872D47009FE131 /* UIBezierPath+LC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+LC.m"; sourceTree = "<group>"; };
+		045032C520872D47009FE131 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		045032C620872D47009FE131 /* LCShoppingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingModel.h; sourceTree = "<group>"; };
+		045032C720872D47009FE131 /* LCShoppingPresentFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingPresentFooterView.m; sourceTree = "<group>"; };
+		045032C920872D48009FE131 /* LCShoppingPresentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingPresentCollectionViewCell.h; sourceTree = "<group>"; };
+		045032FC20872FDE009FE131 /* LCBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseNavigationController.h; sourceTree = "<group>"; };
+		045032FD20872FDE009FE131 /* LCBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseScrollView.m; sourceTree = "<group>"; };
+		045032FE20872FDE009FE131 /* LCBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseCollectionViewController.h; sourceTree = "<group>"; };
+		045032FF20872FDE009FE131 /* LCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseViewController.m; sourceTree = "<group>"; };
+		0450330020872FDE009FE131 /* LCBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseTableViewCell.m; sourceTree = "<group>"; };
+		0450330120872FDF009FE131 /* LCBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseCollectionViewController.m; sourceTree = "<group>"; };
+		0450330220872FDF009FE131 /* LCBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseScrollView.h; sourceTree = "<group>"; };
+		0450330320872FDF009FE131 /* LCBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseTableView.h; sourceTree = "<group>"; };
+		0450330420872FDF009FE131 /* LCBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseTableView.m; sourceTree = "<group>"; };
+		0450330520872FDF009FE131 /* LCBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseTableViewController.m; sourceTree = "<group>"; };
+		0450330620872FDF009FE131 /* LCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseViewController.h; sourceTree = "<group>"; };
+		0450330720872FDF009FE131 /* LCBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseTableViewController.h; sourceTree = "<group>"; };
+		0450330820872FDF009FE131 /* LCBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseNavigationController.m; sourceTree = "<group>"; };
+		0450330920872FDF009FE131 /* LCBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseTableViewCell.h; sourceTree = "<group>"; };
+		0450331120873066009FE131 /* NSString+LC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LC.h"; sourceTree = "<group>"; };
+		0450331220873066009FE131 /* NSString+LC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LC.m"; sourceTree = "<group>"; };
+		0450331420873092009FE131 /* LCShoppingToobar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShoppingToobar.m; sourceTree = "<group>"; };
+		0450331520873092009FE131 /* LCShoppingToobar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShoppingToobar.h; sourceTree = "<group>"; };
+		6BBCE17C110063B6F05846D6 /* Pods_ShoppingAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE8624C811CBE47EFCEE790 /* Pods-ShoppingAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingAlertController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingAlertController/Pods-ShoppingAlertController.release.xcconfig"; sourceTree = "<group>"; };
+		D6E50221DAD54689C6EBC8C8 /* Pods-ShoppingAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingAlertController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingAlertController/Pods-ShoppingAlertController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0450329A20872D0D009FE131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF6E2FB248834AF13CE7F3 /* Pods_ShoppingAlertController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0450329420872D0D009FE131 = {
+			isa = PBXGroup;
+			children = (
+				0450329F20872D0D009FE131 /* ShoppingAlertController */,
+				0450329E20872D0D009FE131 /* Products */,
+				F5B02C30A74C4E328B58234C /* Pods */,
+				2AAC48BB4510461F0B04A441 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0450329E20872D0D009FE131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0450329D20872D0D009FE131 /* ShoppingAlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0450329F20872D0D009FE131 /* ShoppingAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				04503317208731FE009FE131 /* NSFoundation */,
+				045032FB20872FC5009FE131 /* BaseView */,
+				045032D420872D52009FE131 /* Shop */,
+				045032C520872D47009FE131 /* PrefixHeader.pch */,
+				045032A020872D0D009FE131 /* AppDelegate.h */,
+				045032A120872D0D009FE131 /* AppDelegate.m */,
+				045032A320872D0D009FE131 /* ViewController.h */,
+				045032A420872D0D009FE131 /* ViewController.m */,
+				045032BC20872D46009FE131 /* LCShoppingPresentViewController.h */,
+				045032BA20872D46009FE131 /* LCShoppingPresentViewController.m */,
+				045032A620872D0D009FE131 /* Main.storyboard */,
+				045032A920872D0E009FE131 /* Assets.xcassets */,
+				045032AB20872D0E009FE131 /* LaunchScreen.storyboard */,
+				045032AE20872D0E009FE131 /* Info.plist */,
+				045032AF20872D0E009FE131 /* main.m */,
+			);
+			path = ShoppingAlertController;
+			sourceTree = "<group>";
+		};
+		045032D420872D52009FE131 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				0450331520873092009FE131 /* LCShoppingToobar.h */,
+				0450331420873092009FE131 /* LCShoppingToobar.m */,
+				045032BE20872D46009FE131 /* LCPresentationController.h */,
+				045032C320872D47009FE131 /* LCPresentationController.m */,
+				045032B920872D46009FE131 /* LCShoppingCountChangeView.h */,
+				045032B820872D45009FE131 /* LCShoppingCountChangeView.m */,
+				045032C620872D47009FE131 /* LCShoppingModel.h */,
+				045032B620872D45009FE131 /* LCShoppingModel.m */,
+				045032C920872D48009FE131 /* LCShoppingPresentCollectionViewCell.h */,
+				045032BF20872D46009FE131 /* LCShoppingPresentCollectionViewCell.m */,
+				045032B720872D45009FE131 /* LCShoppingPresentFooterView.h */,
+				045032C720872D47009FE131 /* LCShoppingPresentFooterView.m */,
+				045032BD20872D46009FE131 /* LCShoppingPresentHeaderView.h */,
+				045032BB20872D46009FE131 /* LCShoppingPresentHeaderView.m */,
+				045032C020872D46009FE131 /* LCShoppingPresentTopView.h */,
+				045032C120872D46009FE131 /* LCShoppingPresentTopView.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		045032FB20872FC5009FE131 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				045032FE20872FDE009FE131 /* LCBaseCollectionViewController.h */,
+				0450330120872FDF009FE131 /* LCBaseCollectionViewController.m */,
+				045032FC20872FDE009FE131 /* LCBaseNavigationController.h */,
+				0450330820872FDF009FE131 /* LCBaseNavigationController.m */,
+				0450330220872FDF009FE131 /* LCBaseScrollView.h */,
+				045032FD20872FDE009FE131 /* LCBaseScrollView.m */,
+				0450330320872FDF009FE131 /* LCBaseTableView.h */,
+				0450330420872FDF009FE131 /* LCBaseTableView.m */,
+				0450330920872FDF009FE131 /* LCBaseTableViewCell.h */,
+				0450330020872FDE009FE131 /* LCBaseTableViewCell.m */,
+				0450330720872FDF009FE131 /* LCBaseTableViewController.h */,
+				0450330520872FDF009FE131 /* LCBaseTableViewController.m */,
+				0450330620872FDF009FE131 /* LCBaseViewController.h */,
+				045032FF20872FDE009FE131 /* LCBaseViewController.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		04503317208731FE009FE131 /* NSFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				045032C220872D47009FE131 /* UIBezierPath+LC.h */,
+				045032C420872D47009FE131 /* UIBezierPath+LC.m */,
+				0450331120873066009FE131 /* NSString+LC.h */,
+				0450331220873066009FE131 /* NSString+LC.m */,
+			);
+			path = NSFoundation;
+			sourceTree = "<group>";
+		};
+		2AAC48BB4510461F0B04A441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBCE17C110063B6F05846D6 /* Pods_ShoppingAlertController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5B02C30A74C4E328B58234C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E50221DAD54689C6EBC8C8 /* Pods-ShoppingAlertController.debug.xcconfig */,
+				7BE8624C811CBE47EFCEE790 /* Pods-ShoppingAlertController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0450329C20872D0D009FE131 /* ShoppingAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045032B320872D0E009FE131 /* Build configuration list for PBXNativeTarget "ShoppingAlertController" */;
+			buildPhases = (
+				869F21798FB5AC996759F1C6 /* [CP] Check Pods Manifest.lock */,
+				0450329920872D0D009FE131 /* Sources */,
+				0450329A20872D0D009FE131 /* Frameworks */,
+				0450329B20872D0D009FE131 /* Resources */,
+				E6F92133F3AB60548A12EBB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingAlertController;
+			productName = ShoppingAlertController;
+			productReference = 0450329D20872D0D009FE131 /* ShoppingAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0450329520872D0D009FE131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LCTechnology;
+				TargetAttributes = {
+					0450329C20872D0D009FE131 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 0450329820872D0D009FE131 /* Build configuration list for PBXProject "ShoppingAlertController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0450329420872D0D009FE131;
+			productRefGroup = 0450329E20872D0D009FE131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0450329C20872D0D009FE131 /* ShoppingAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0450329B20872D0D009FE131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045032AD20872D0E009FE131 /* LaunchScreen.storyboard in Resources */,
+				045032AA20872D0E009FE131 /* Assets.xcassets in Resources */,
+				045032A820872D0D009FE131 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		869F21798FB5AC996759F1C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoppingAlertController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F92133F3AB60548A12EBB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingAlertController/Pods-ShoppingAlertController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingAlertController/Pods-ShoppingAlertController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0450329920872D0D009FE131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450330D20872FDF009FE131 /* LCBaseCollectionViewController.m in Sources */,
+				045032CA20872D48009FE131 /* LCShoppingModel.m in Sources */,
+				0450331020872FDF009FE131 /* LCBaseNavigationController.m in Sources */,
+				045032CB20872D48009FE131 /* LCShoppingCountChangeView.m in Sources */,
+				0450330C20872FDF009FE131 /* LCBaseTableViewCell.m in Sources */,
+				045032D020872D48009FE131 /* LCPresentationController.m in Sources */,
+				045032A520872D0D009FE131 /* ViewController.m in Sources */,
+				0450330B20872FDF009FE131 /* LCBaseViewController.m in Sources */,
+				0450330A20872FDF009FE131 /* LCBaseScrollView.m in Sources */,
+				045032CD20872D48009FE131 /* LCShoppingPresentHeaderView.m in Sources */,
+				045032B020872D0E009FE131 /* main.m in Sources */,
+				045032A220872D0D009FE131 /* AppDelegate.m in Sources */,
+				045032CC20872D48009FE131 /* LCShoppingPresentViewController.m in Sources */,
+				0450331620873093009FE131 /* LCShoppingToobar.m in Sources */,
+				0450330E20872FDF009FE131 /* LCBaseTableView.m in Sources */,
+				045032CF20872D48009FE131 /* LCShoppingPresentTopView.m in Sources */,
+				045032D120872D48009FE131 /* UIBezierPath+LC.m in Sources */,
+				0450330F20872FDF009FE131 /* LCBaseTableViewController.m in Sources */,
+				045032D220872D48009FE131 /* LCShoppingPresentFooterView.m in Sources */,
+				0450331320873066009FE131 /* NSString+LC.m in Sources */,
+				045032CE20872D48009FE131 /* LCShoppingPresentCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045032A620872D0D009FE131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045032A720872D0D009FE131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045032AB20872D0E009FE131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045032AC20872D0E009FE131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045032B120872D0E009FE131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		045032B220872D0E009FE131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045032B420872D0E009FE131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E50221DAD54689C6EBC8C8 /* Pods-ShoppingAlertController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWBZ36H4U;
+				GCC_PREFIX_HEADER = ShoppingAlertController/PrefixHeader.pch;
+				INFOPLIST_FILE = ShoppingAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lc.ShoppingAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045032B520872D0E009FE131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE8624C811CBE47EFCEE790 /* Pods-ShoppingAlertController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWBZ36H4U;
+				GCC_PREFIX_HEADER = ShoppingAlertController/PrefixHeader.pch;
+				INFOPLIST_FILE = ShoppingAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lc.ShoppingAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0450329820872D0D009FE131 /* Build configuration list for PBXProject "ShoppingAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045032B120872D0E009FE131 /* Debug */,
+				045032B220872D0E009FE131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045032B320872D0E009FE131 /* Build configuration list for PBXNativeTarget "ShoppingAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045032B420872D0E009FE131 /* Debug */,
+				045032B520872D0E009FE131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0450329520872D0D009FE131 /* Project object */;
+}
